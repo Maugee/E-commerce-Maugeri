@@ -1,0 +1,55 @@
+.bienvenido{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+.card{
+    color: white;
+    text-align: center;
+    border: 1px rgb(29, 29, 29) solid;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(29, 29, 29);
+    text-decoration: none;
+}
+
+.card h3{
+    text-transform: uppercase;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.card .precio{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    grid-template-columns: repeat(3);
+    justify-content: center;
+}
+
+
+.botonCantidad{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.botonCantidad button{
+    background-color: rgb(29, 29, 29);
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
