@@ -13,15 +13,15 @@ const NavBar = () => {
         </Link>
         <ul>
             <Link to="/categoria/hamburguesa">  
-                <FaHamburger size={40} color='bisque'/>
+                <FaHamburger className="icon" size={40} color='bisque'/>
             </Link>
 
             <Link to="/categoria/pizza">
-                <GiFullPizza size={40} color='yellow'/>
+                <GiFullPizza className="icon"  size={40} color='yellow'/>
             </Link>
 
             <Link to="/categoria/lomitos" >
-                <GiSandwich size={40} color='wheat'/>
+                <GiSandwich className="icon"  size={40} color='wheat'/>
             </Link>
         </ul>
         <CardWidget/>

@@ -3,32 +3,40 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
+    margin-right: 50px;
+    gap: 20px;
+    color: white;
 }
 
 .cartaProducto img{
-    width: 550px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 
-
-.cartaProducto div{
-    margin-top: 120px;
-    margin-left: 50px;
-    color: rgb(172, 172, 172);
-}
-
-.detalles{
-    border: none;
-    background-color: transparent;
-    color: white;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.cartaProducto h3{
+    text-align: center;
     text-transform: uppercase;
 }
 
-.detalles:hover{
-    font-size: 16px;
-    transition: calc(2s);
+
+.masMenos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.masMenos button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+.agregar{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 2px;
 }

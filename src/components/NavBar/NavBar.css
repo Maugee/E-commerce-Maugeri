@@ -17,15 +17,35 @@ ul{
     gap: 180px;
 }
 
+.icon{
+    transition: 1s ease-in-out;
+}
+
+
+.icon:hover{
+    transform: scale(1.2);
+}
 
 .carrito{
     display: flex;
     align-items: center;
     margin-left: 500px;
+    text-decoration: none;
 }
 
 .carrito p{
     font-size: 30px;
     margin-left: 20px;
     color: silver;
+}
+
+
+.carritoVerde{
+    color: lime;
+    
+}
+
+.carritoSilver{
+    color: silver;
+    
 }

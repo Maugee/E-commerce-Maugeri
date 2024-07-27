@@ -1,8 +1,15 @@
-# React + Vite
+# Ecommerce Pedidos Ya
+##### `Dev - Emilio Maugeri`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" width="50"/>
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/React-Dark.svg" width="50"/>
+</div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripcion
+Este es un proyecto que se basa en un eccommerce de comida, esta basado en pedidos ya, el mismo te permite pedir desde la comodidad de tu casa.
+
+## Librerias
+
+`Firebase` `React` `React-dom` `React-icons` `React-router-dom` `React-toastify` `yup` 
